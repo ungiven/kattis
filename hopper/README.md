@@ -6,7 +6,7 @@ https://open.kattis.com/problems/hopper
 ## Statistics
 https://open.kattis.com/problems/hopper/statistics
 
-- [x] Basic algorithm
-- [x] Time optimization
+- [X] Basic algorithm
+- [x] Time optimization (some)
 - [ ] Memory optimization
 - [ ] Profit
