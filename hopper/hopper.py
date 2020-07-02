@@ -1,26 +1,26 @@
 import sys
 
-# for i in sys.stdin:
-#     ab = i.split()
-#     if(len(ab)) == 3:
-#         _dist = int(ab[1])
-#         _m = int(ab[2])
-#         length = int(ab[0])
-#     elif(len(ab)) == length:
-#         _li = list(map(int, ab))
+for i in sys.stdin:
+    ab = i.split()
+    if(len(ab)) == 3:
+        _dist = int(ab[1])
+        _m = int(ab[2])
+        length = int(ab[0])
+    elif(len(ab)) == length:
+        _li = list(map(int, ab))
 
 
-_dist = 2
-_m = 1
+#_dist = 2
+#_m = 1
 # _li= '1 3 5 7 9 11 13'
 # _li= '1 2 4 6 7 9 10 11'
-_li = '1 7 8 2 6 4 3 5'
-_li = list(map(int, _li.split()))
+#_li = '1 7 8 2 6 4 3 5'
+#_li = list(map(int, _li.split()))
 
 _mem = {}
 sys.setrecursionlimit(10000)
 
-
+# find candidates
 def possi(index, v, li):
     r = []
 
@@ -32,7 +32,7 @@ def possi(index, v, li):
     return r
 
 
-# True if index has possibilities forward
+# True if index has candidates forward
 def fcand(index):
     r = set()
     p = possi(index, [], _li)
@@ -43,7 +43,7 @@ def fcand(index):
 
     return r
 
-
+# find isolates
 def isolate(li):
     start = 0
     count = 0
@@ -65,7 +65,7 @@ def isolate(li):
 
     return iso
 
-
+# calculate path from index
 def path(index, li, v=[]):
     v = v[:]
     v.append(index)
