@@ -11,6 +11,6 @@ https://open.kattis.com/problems/hopper/statistics
 |Done|Task|
 :---:|:---|
 |:heavy_check_mark:|Basic algorithm|
-|:heavy_check_mark:|Time optimization (some)|
+|:heavy_check_mark:|Time optimization *(some)*|
 ||Memory optimization|
 ||Profit
