@@ -8,7 +8,9 @@ https://open.kattis.com/problems/hopper/statistics
 
 ## TODO
 
-- [X] Basic algorithm
-- [x] Time optimization (some)
-- [ ] Memory optimization
-- [ ] Profit
+|Done|Task|
+:---:|:---|
+|:heavy_check_mark:|Basic algorithm|
+|:heavy_check_mark:|Time optimization (some)|
+||Memory optimization|
+||Profit
