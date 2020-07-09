@@ -1,5 +1,8 @@
 # Kattis - Hopper problem
 
+## Status
+34/64 Memory limit exceeded
+
 ## Description
 https://open.kattis.com/problems/hopper
 
