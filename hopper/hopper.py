@@ -32,7 +32,7 @@ def possi(index, v, li):
     return r
 
 
-# True if index has candidates forward
+# list of forward candidates
 def fcand(index):
     r = set()
     p = possi(index, [], _li)
